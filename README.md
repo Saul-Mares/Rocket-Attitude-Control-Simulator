@@ -56,6 +56,20 @@ The controller computes:
 ![Summary](figures/SimulationSummary.png)
 
 ---
+## Simulink Implementation
+
+After validating the controller in MATLAB, the simulation was recreated in Simulink using standard control system blocks.
+
+The Simulink model includes:
+
+- Closed-loop PD controller
+- Rocket rotational dynamics
+- Wind disturbance input
+- Continuous-time integrators
+- Feedback control loop
+- Scope-based response visualization
+
+<img width="587" height="210" alt="image" src="https://github.com/user-attachments/assets/1ade0048-147e-4db8-aba0-386c041f37eb" />
 
 ## Future Improvements
 
